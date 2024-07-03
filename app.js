@@ -41,6 +41,8 @@ async function start() {
     console.log(`listening on ${port}`);
   } catch (error) {
     console.log(error.message);
+    console.log('haile')
+    console.log(error)
   }
 }
 start();
